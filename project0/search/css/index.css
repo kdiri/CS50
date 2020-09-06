@@ -1,0 +1,141 @@
+:root {
+    --btn-bgcolor: #F2F2F2;
+    --txt-color: #45494e;
+    --search-color: rgba(73, 73, 73, 0.308);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    /* margin-bottom: 200px;  this is not good practice */
+}
+.header-elements{
+    padding: 10px;
+}
+/* Code written by rizwan correction */
+
+.google-search-bar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-image {
+    align-self: center;
+    padding: 1rem;
+    padding-top: 180px;
+}
+
+.main-image img {
+    max-width:320px;
+    width: auto;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.searbox-wrapper{
+    display: flex;
+    align-self: center;
+    padding-bottom: 40px;
+}
+
+.search-box{
+    display: flex;
+    align-self: center;
+    width: 580px;
+    border-radius: 50px;
+    border: solid rgb(206, 206, 206) 1px;
+    padding:16px;
+}
+
+@media(max-width: 480px){
+    .search-box{
+        display: flex;
+        align-self: center;
+        width: 300px;
+        border-radius: 50px;
+        border: solid rgb(206, 206, 206) 1px;
+        padding:15px;
+    }
+}
+
+.search-box:hover{
+    box-shadow: 1px 1px 1px 1px rgb(208, 208, 208);
+}
+
+
+.search-box-image{
+    max-width: 28px;
+    max-height: 18px;
+}
+
+
+
+input[type=text] {
+    border-style: none;
+    flex-grow: 1;
+    padding-left: 16px;
+}
+.buttons{
+    align-self: center;
+}
+
+/*input[type=submit]{
+    margin: 8px;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 5px;
+    color: grey;
+}*/
+
+*input[type="submit"]{
+    background-color: #4C8EFA;
+    border: 1px solid #8e8ea8;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 200px;
+    margin-left: 350px;
+}
+
+@media(max-width:480px){
+    input[type=submit]{
+        background-color: #4C8EFA;
+        border: 1px solid #8e8ea8;
+        color: #fff;
+        font-weight: 700;
+        border-radius: 2px;
+        cursor: pointer;
+        width: 200px;
+        margin-left: 350px;
+    }
+}
+
+#lan_proposition {
+  font-size: medium;
+  margin-top: 20px;
+}
+
+
+#other_pages {
+  margin-top: 20px;
+  text-align: right;
+}
+#other_pages a {
+  font-size: 15px;
+  color: black;
+  padding-right: 25px;
+  opacity: 0.91;
+}
+/* Advanced Search & Image Search */
+

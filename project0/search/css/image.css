@@ -1,0 +1,93 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-elements{
+    padding: 10px;
+}
+
+
+.google-search-bar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-image {
+    align-self: center;
+    padding: 1rem;
+    padding-top: 180px;
+}
+
+.main-image img {
+    max-width:320px;
+    width: auto;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.searbox-wrapper{
+    display: flex;
+    align-self: center;
+    padding-bottom: 40px;
+}
+
+.search-box{
+    display: flex;
+    align-self: center;
+    width: 580px;
+    border-radius: 50px;
+    border: solid rgb(206, 206, 206) 1px;
+    padding:16px;
+}
+
+.search-box:hover{
+    box-shadow: 1px 1px 1px 1px rgb(208, 208, 208);
+}
+
+
+.search-box-image{
+    max-width: 28px;
+    max-height: 18px;
+}
+
+input[type=text] {
+    border-style: none;
+    flex-grow: 1;
+    padding-left: 16px;
+}
+.buttons{
+    align-self: center;
+}
+
+input[type=submit]{
+    margin: 8px;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 5px;
+    color: grey;
+}
+
+
+input[type=submit]:hover{
+
+
+    border-radius: 5px;
+    background: rgb(243, 243, 243);
+    border-style: none;
+    color:rgb(56, 56, 56);
+    box-shadow: 1px 1px 1px 1px rgb(208, 208, 208);
+
+}
+
+a {
+    font-weight: bolder;
+    font-size: larger;
+}
